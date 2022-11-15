@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: aaa12ecf31dbe4c41b3a107feda1948d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CabezaGanso2
+    100002: fff
+    100004: fff1
+    100006: fff1 1
+    100008: //RootNode
+    100010: group1
+    100012: Humano_01Business_01_30K_001
+    100014: Monoculo
+    100016: MonuculoIzquierdo
+    100018: ParpadosL
+    100020: ParpadosL1
+    100022: pasted__pPlane1
+    100024: pasted__pPlane1 1
+    100026: pasted__pPlane2
+    100028: pasted__pPlane2 1
+    100030: pCylinder1
+    100032: pCylinder1 1
+    100034: pDisc1
+    100036: pDisc1 1
+    100038: polySurface4
+    100040: polySurface5
+    100042: polySurface6
+    100044: pSphere1
+    100046: pSphere1 1
+    100048: pTorus1
+    100050: pTorus1 1
+    100052: smoking_pipe
+    100054: smoking_pipe1
+    100056: Tie_Line003_000
+    100058: transform1
+    100060: uploads_files_1881551_Homburg_hat1:homburg_hat
+    400000: CabezaGanso2
+    400002: fff
+    400004: fff1
+    400006: fff1 1
+    400008: //RootNode
+    400010: group1
+    400012: Humano_01Business_01_30K_001
+    400014: Monoculo
+    400016: MonuculoIzquierdo
+    400018: ParpadosL
+    400020: ParpadosL1
+    400022: pasted__pPlane1
+    400024: pasted__pPlane1 1
+    400026: pasted__pPlane2
+    400028: pasted__pPlane2 1
+    400030: pCylinder1
+    400032: pCylinder1 1
+    400034: pDisc1
+    400036: pDisc1 1
+    400038: polySurface4
+    400040: polySurface5
+    400042: polySurface6
+    400044: pSphere1
+    400046: pSphere1 1
+    400048: pTorus1
+    400050: pTorus1 1
+    400052: smoking_pipe
+    400054: smoking_pipe1
+    400056: Tie_Line003_000
+    400058: transform1
+    400060: uploads_files_1881551_Homburg_hat1:homburg_hat
+    2100000: TelaSaco
+    2100002: Goose
+    2100004: TelaYeloo
+    2100006: Alligator
+    2100008: Gold
+    2100010: Glass
+    2100012: Pico
+    2100014: EyeM
+    2100016: Pia
+    2100018: Sombrero
+    2100020: pasted__TelaSaco
+    2300000: fff
+    2300002: fff1
+    2300004: fff1 1
+    2300006: Humano_01Business_01_30K_001
+    2300008: pasted__pPlane1
+    2300010: pasted__pPlane1 1
+    2300012: pasted__pPlane2
+    2300014: pasted__pPlane2 1
+    2300016: pCylinder1
+    2300018: pCylinder1 1
+    2300020: pDisc1
+    2300022: pDisc1 1
+    2300024: polySurface4
+    2300026: polySurface5
+    2300028: polySurface6
+    2300030: pSphere1
+    2300032: pSphere1 1
+    2300034: pTorus1
+    2300036: pTorus1 1
+    2300038: smoking_pipe
+    2300040: smoking_pipe1
+    2300042: Tie_Line003_000
+    2300044: uploads_files_1881551_Homburg_hat1:homburg_hat
+    3300000: fff
+    3300002: fff1
+    3300004: fff1 1
+    3300006: Humano_01Business_01_30K_001
+    3300008: pasted__pPlane1
+    3300010: pasted__pPlane1 1
+    3300012: pasted__pPlane2
+    3300014: pasted__pPlane2 1
+    3300016: pCylinder1
+    3300018: pCylinder1 1
+    3300020: pDisc1
+    3300022: pDisc1 1
+    3300024: polySurface4
+    3300026: polySurface5
+    3300028: polySurface6
+    3300030: pSphere1
+    3300032: pSphere1 1
+    3300034: pTorus1
+    3300036: pTorus1 1
+    3300038: smoking_pipe
+    3300040: smoking_pipe1
+    3300042: Tie_Line003_000
+    3300044: uploads_files_1881551_Homburg_hat1:homburg_hat
+    4300000: Humano_01Business_01_30K_001
+    4300002: pTorus1
+    4300004: pSphere1
+    4300006: pCylinder1
+    4300008: pDisc1
+    4300010: polySurface4
+    4300012: polySurface5
+    4300014: polySurface6
+    4300016: pasted__pPlane1
+    4300018: pasted__pPlane2
+    4300020: fff1
+    4300022: fff
+    4300024: pasted__pPlane1
+    4300026: pasted__pPlane2
+    4300028: fff1
+    4300030: pTorus1
+    4300032: pSphere1
+    4300034: pCylinder1
+    4300036: pDisc1
+    4300038: smoking_pipe
+    4300040: uploads_files_1881551_Homburg_hat1:homburg_hat
+    4300042: Tie_Line003_000
+    4300044: smoking_pipe1
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
