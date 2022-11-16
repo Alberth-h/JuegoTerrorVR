@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using SpeechLib;
-using UnityEngine.SceneManagement;
 
 public class Cuadro : MonoBehaviour
 {
@@ -36,7 +35,7 @@ public class Cuadro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void OnEnter()
@@ -86,10 +85,7 @@ public class Cuadro : MonoBehaviour
             gameObject.SetActive(false);
             enemy.SetActive(true);
         }
-
-        if(puntuaciones.GetComponent<Text>().text == "FRAMES: 10/10"){
-            SceneManager.LoadScene("Ending");
-        }
+        
     }
 
     public void OnEnxitPicture()
