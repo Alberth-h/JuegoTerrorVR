@@ -16,6 +16,7 @@ public class Cuadro : MonoBehaviour
     private Material renderer;
     private Color _emissionColorValue;
     private float _intensity;
+    private string _ultimoCuadro = "LastFrame";
 
     public Puntuacion puntuacion;
     [SerializeField] GameObject puntuaciones;
@@ -71,11 +72,21 @@ public class Cuadro : MonoBehaviour
 
     public void ClickOnCuadro()
     {
-        puntuacion.puntos++;
-		puntuaciones.GetComponent<Text>().text="FRAMES: " + puntuacion.puntos.ToString() + "/10";
+        if(puntuacion.puntos <= 8 && gameObject.tag != _ultimoCuadro)
+        {
+            puntuacion.puntos++;
+		    puntuaciones.GetComponent<Text>().text="FRAMES: " + puntuacion.puntos.ToString() + "/10";
+            gameObject.SetActive(false);
+            enemy.SetActive(true);
+        }
+        if(puntuacion.puntos == 9 && gameObject.tag == _ultimoCuadro)
+        {
+            puntuacion.puntos++;
+		    puntuaciones.GetComponent<Text>().text="FRAMES: " + puntuacion.puntos.ToString() + "/10";
+            gameObject.SetActive(false);
+            enemy.SetActive(true);
+        }
 
-        gameObject.SetActive(false);
-        enemy.SetActive(true);
         if(puntuaciones.GetComponent<Text>().text == "FRAMES: 10/10"){
             SceneManager.LoadScene("Ending");
         }
