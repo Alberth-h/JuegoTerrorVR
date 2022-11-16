@@ -6,8 +6,10 @@ public class Ataque : MonoBehaviour
 {
     public Vision vision;
     [SerializeField] string animation_name;
+    private float _elapsedTimeVision = 0.0f;
     private float _elapsedTime = 0.0f;
     [SerializeField] float _anim_time;
+    [SerializeField] float maxDuration;
 
     [SerializeField] float speed;
 
@@ -17,18 +19,28 @@ public class Ataque : MonoBehaviour
     void Update()
     {
         Animation();
-        _elapsedTime += Time.deltaTime;
-        if(_elapsedTime >= _anim_time) {
-            Destroy(gameObject);
-        }
     }
     void Animation()
     {
         if(vision.canSeeEnemy)
         {
+            _elapsedTimeVision += Time.deltaTime;
+            if(_elapsedTimeVision >= _anim_time) {
+                Destroy(gameObject);
+            }
+            if(!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(sonido);
+            }
             gameObject.GetComponent<Animator>().Play(animation_name);
-            audioSource.PlayOneShot(sonido);
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        }
+        else
+        {
+            _elapsedTime += Time.deltaTime;
+            if(_elapsedTime >= maxDuration) {
+                Destroy(gameObject);
+            }
         }
     }
 
