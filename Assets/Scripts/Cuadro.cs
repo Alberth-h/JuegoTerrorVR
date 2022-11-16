@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using SpeechLib;
+using UnityEngine.SceneManagement;
+
 public class Cuadro : MonoBehaviour
 {
     //private Renderer renderer;
@@ -70,10 +72,13 @@ public class Cuadro : MonoBehaviour
     public void ClickOnCuadro()
     {
         puntuacion.puntos++;
-		puntuaciones.GetComponent<Text>().text="Cuadros: " + puntuacion.puntos.ToString() + "/" + "5";
+		puntuaciones.GetComponent<Text>().text="FRAMES: " + puntuacion.puntos.ToString() + "/10";
 
         gameObject.SetActive(false);
         enemy.SetActive(true);
+        if(puntuaciones.GetComponent<Text>().text == "FRAMES: 10/10"){
+            SceneManager.LoadScene("Ending");
+        }
     }
 
     public void OnEnxitPicture()
