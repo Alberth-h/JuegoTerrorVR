@@ -14,6 +14,7 @@ TagManager:
   - ganso
   - screamer
   - Enemy
+  - LastFrame
   layers:
   - Default
   - TransparentFX
